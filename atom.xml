@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>齐先生个人博客</title>
+  
+  <subtitle>不要害怕生命中不完美的角落，阳光在每个裂缝中散落。</subtitle>
+  <link href="https://qixiansheng-cmd.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://qixiansheng-cmd.github.io/"/>
+  <updated>2021-06-04T08:23:52.632Z</updated>
+  <id>https://qixiansheng-cmd.github.io/</id>
+  
+  <author>
+    <name>齐先生</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://qixiansheng-cmd.github.io/2021/06/04/hello-world/"/>
+    <id>https://qixiansheng-cmd.github.io/2021/06/04/hello-world/</id>
+    <published>2021-06-04T08:23:52.632Z</published>
+    <updated>2021-06-04T08:23:52.632Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
