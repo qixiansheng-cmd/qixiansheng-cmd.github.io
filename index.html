@@ -138,9 +138,17 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">Artikel</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">Kategorien</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">schlagwörter</span>
       </div>
   </nav>
 </div>
@@ -173,6 +181,92 @@
 
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://qixiansheng-cmd.github.io/2021/06/08/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="齐先生">
+      <meta itemprop="description" content="学习就是生活，生活即是学习">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="齐先生个人博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/06/08/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" class="post-title-link" itemprop="url">第一篇博客</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Veröffentlicht am</span>
+      
+
+      <time title="Erstellt: 2021-06-08 16:58:44 / Geändert am: 17:34:57" itemprop="dateCreated datePublished" datetime="2021-06-08T16:58:44+08:00">2021-06-08</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">in</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%9B%B0%E9%9A%BE%E8%A7%A3%E5%86%B3/" itemprop="url" rel="index"><span itemprop="name">困难解决</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="解决在Anaconda3中使用matplotlib画图无显示无报错"><a href="#解决在Anaconda3中使用matplotlib画图无显示无报错" class="headerlink" title="解决在Anaconda3中使用matplotlib画图无显示无报错"></a>解决在Anaconda3中使用matplotlib画图无显示无报错</h1><p>方法一：把代码中的</p>
+<p>import matplotlib.pyplot as plt</p>
+<p>改为</p>
+<p>import matplotlib</p>
+<p>matplotlib.use(‘TkAgg’)</p>
+<p>import matplotlib.pyplot as plt</p>
+<p>方法二：出现</p>
+<p>Figures now render in the Plots pane by default. To make them also appear inline in the Console, uncheck “Mute Inline Plotting” under the Plots pane options menu. </p>
+<p>修改设置：</p>
+<p>Tools &gt; Preferences &gt; iPython console &gt; Graphics &gt; Graphics backend &gt; Automatic</p>
+<p>重启IDE，建议以管理员权限打开IDE,然后画图就会弹出窗口显示了，如下图：</p>
+<p><img src="%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2.assets/%E5%9B%BE%E7%89%871.png"></p>
+<p><img src="%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2.assets/%E5%9B%BE%E7%89%872.png"></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -258,7 +352,6 @@
     <div class="footer-inner">
 
 
-<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <div class="copyright">
   &copy; 
   <span itemprop="copyrightYear">2021</span>
@@ -266,11 +359,6 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">齐先生</span>
-</div>
-<div class="powered-by">
-<i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
-  本站访客数:<span id="busuanzi_value_site_uv"></span>
-</span>
 </div>
 
     </div>
